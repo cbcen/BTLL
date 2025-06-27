@@ -1,16 +1,37 @@
-<!-- Services -->
-<style>
+ <style>
   .service-img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
+    width: min(120px, 25vw); /* Responsive: max 120px, but scales down on small screens */
+    height: min(120px, 25vw);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
 
-.icon-image-wrapper {
-  display: inline-block;
-}
+  /* Alternative approach with breakpoints */
+  @media (max-width: 768px) {
+    .service-img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .service-img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .icon-image-wrapper {
+    display: inline-block;
+  }
+  
+  /* Make sure service columns stack nicely on mobile */
+  @media (max-width: 768px) {
+    .service-col {
+      margin-bottom: 2rem;
+    }
+  }
 </style>
 
 {% if site.locale and site.locale != "" and site.locale != nil %}
@@ -28,7 +49,7 @@
 	  
       <div class="row text-center">
 	  {% for service in site.data.sitetext[site.locale].services.list %}
-        <div class="col-md-4">
+        <div class="col-md-4 service-col">
         <div class="icon-image-wrapper mb-4">
           <img src="{{ service.image | relative_url }}" alt="{{ service.title | strip_html }}" class="rounded-circle service-img">
         </div>
@@ -55,9 +76,9 @@
   
     <div class="row text-center">
   {% for service in site.data.sitetext.services.list %}
-      <div class="col-md-4">
+      <div class="col-md-4 service-col">
         <div class="icon-image-wrapper mb-4">
-          <img src="{{ service.image }}" alt="{{ service.title | strip_html }}" class="rounded-circle service-img">
+          <img src="{{ service.image | relative_url }}" alt="{{ service.title | strip_html }}" class="rounded-circle service-img">
         </div>
         <h4 class="service-heading">{{ service.title | markdownify }}</h4>
         {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
@@ -68,4 +89,3 @@
   </div>
 </section>
 {% endif %}
-<!-- End Services -->
