@@ -4,5 +4,13 @@
 #black: "#000"
 
 #Image Customization
-header-image: "../img/bg-header.webp"
+header-image: "../img/header-bg.webp"
 contact-image: "../img/map-image.png"
+
+fonts:
+  brand: "Roboto Slab"
+
+css: |
+  #mainNav .navbar-brand {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  }
