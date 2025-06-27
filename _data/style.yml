@@ -7,10 +7,7 @@
 header-image: "../img/header-bg.webp"
 contact-image: "../img/map-image.png"
 
-fonts:
-  brand: "Roboto Slab"
-
 css: |
-  #mainNav .navbar-brand {
-    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  #mainNav .navbar-btl {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
