@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   header:
     title: Launching Soon
     text: Back to Life Repair and Restoration
-    button: Tell Me More
+    button: Call Now
     buttonlink: tel:+44797614519
 
 #  services:

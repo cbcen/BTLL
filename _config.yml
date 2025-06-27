@@ -18,7 +18,7 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "/aetherna" # the subpath of your site, e.g. /blog
 
 title      : Back To Life Restorations
-email      : mk.nowaczyk@gmail.com #this is also the email contact forms will go to
+email      : marta@niepodam.pl #this is also the email contact forms will go to
 description: "Heanor based Classic Cars Restorations"
 author     : BTL
 # logo:     #optional, defaults to site title
