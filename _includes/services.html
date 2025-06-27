@@ -30,7 +30,7 @@
 	  {% for service in site.data.sitetext[site.locale].services.list %}
         <div class="col-md-4">
         <div class="icon-image-wrapper mb-4">
-          <img src="{{ site.baseurl }}{{ service.image }}" alt="{{ service.title | strip_html }}" class="rounded-circle service-img">
+          <img src="{{ service.image | relative_url }}" alt="{{ service.title | strip_html }}" class="rounded-circle service-img">
         </div>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
