@@ -22,13 +22,13 @@ en: &DEFAULT_EN
    section: services
    list:
      - title: "Welding"
-       desc: "Lots of welding I do yes"
+       desc: "Precision welding for structural repairs and custom fabrication."
        image: /assets/img/services/welding.png
      - title: "Painting"
-       desc: "Something something"
+       desc: "High-quality paintwork to restore or refresh your car's finish."
        image: /assets/img/services/painting.png
-     - title: "Brake pads change"
-       desc: "Brakes change"
+     - title: "Brakes" 
+       desc: "Brake repairs — pads, discs, and more"
        image: /assets/img/services/brakes.png
 
 #  portfolio:
@@ -41,7 +41,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     # text: "our story"
-    body: "Heanor based Love put something here"
+    body: "We specialize in restoring classic cars and motorcycles — from bodywork and paint to brakes and precision welding, bringing vintage machines back to life with modern reliability"
     section: about
 
   contact:
