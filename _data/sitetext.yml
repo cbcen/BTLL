@@ -49,8 +49,8 @@ en: &DEFAULT_EN
     unit: "Unit 2"
     address1: "169 Cromford Rd"
     address2: "Langley Mill"
+    city: "Nottinghamshire"
     postcode: "NG16 4EU"
-    city: "Nottingham"
     section: contact
  
  
