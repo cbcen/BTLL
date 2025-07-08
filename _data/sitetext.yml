@@ -11,21 +11,20 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: BTL
     text: Back to Life Repair and Restorations
     button: Call Now
     buttonlink: tel:+447976141519
 
   services:
    title: "Services"
-   text: "Available Services"
+   text: "Quality Work at Competitive Prices"
    section: services
    list:
      - title: "Welding"
        desc: "MOT Failures - Rust Repairs - Full Restorations."
        image: /assets/img/services/welding.png
      - title: "Paintwork"
-       desc: "Paint Correction - Repairs - Resprays - Headlight Restoration"
+       desc: "Paint Correction - Repairs - Resprays \n Headlight Restoration"
        image: /assets/img/services/painting.png
      - title: "Servicing / Maintenance" 
        desc: "Brakes & Suspension - Exhausts - Oil & Fluids and More"
