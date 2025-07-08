@@ -40,7 +40,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     # text: "our story"
-    body: "A history in restoring classic cars and motorcycles, keeping modern classics on the road and giving unloved cars a second chance. — From bodywork and paint to brakes and precision welding at an affordable price, we'll keep you on the road"
+    body: "A history in restoring classic cars and motorcycles, keeping modern classics on the road and giving unloved cars a second chance. — From bodywork and paint to brakes and precision welding at an affordable price, we'll keep you on the road."
     section: about
 
   contact:
